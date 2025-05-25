@@ -19,14 +19,14 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="relative z-20 max-w-3xl mx-auto px-4 flex flex-col justify-center h-full">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-            Support that lets you focus
+            Make Your Street Safer, Cleaner, Better
           </h1>
           <span
             className={`block text-3xl md:text-5xl text-white italic mb-8 ${dancingScript.className}`}
           >
-            on what matters
+            powered by your community
           </span>
-          <Button asChild size="lg" className="text-lg font-semibold w-fit">
+          <Button asChild size="lg" className="text-lg bg-green-500 text-white hover:bg-green-600 font-semibold w-fit">
             <Link href="/report">Report an Issue</Link>
           </Button>
         </div>
